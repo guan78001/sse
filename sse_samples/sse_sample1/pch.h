@@ -16,6 +16,18 @@
 #include <xmmintrin.h> //sse
 #include <emmintrin.h> //sse2
 #include <pmmintrin.h> //sse3
+#include <nmmintrin.h>
+#include <tmmintrin.h>
 
+#include <cstdio>
+#include <stdlib.h>
+#include <cstdint>
+#include <typeinfo>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+
+
+#include <omp.h>
 using namespace std;
 #endif //PCH_H
